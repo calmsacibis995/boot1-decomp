@@ -2,7 +2,7 @@
 This is a **work-in-progress** decompilation of boot1 (revisions a, b), which is found in the Nintendo Wii. It aims to be as accurate as possible, while also being able to be used on ARM-based emulators, such as QEMU.
 
 ## Status
-To be added.
+The decomp is currently in very early stages, and only a few functions have been implemented.
 
 ## Building
 This project uses regular Makefiles, although we do want the project to use CMake in the future, as it is more versatile than regular Makefiles.
@@ -17,5 +17,4 @@ But regardless, you will need the following software installed:
 - If you are going to help us out with the decompilation, you will also need Ghidra, which can be downloaded from [here](https://github.com/NationalSecurityAgency/ghidra).
 
 ### Building boot1
-To build boot1, make sure that the ARM cross-compiler path is present in your `PATH`. If you are sure that it is, run `make`. 
-The result is going to be a `boot1-prod.elf` executable.
+To be added.
